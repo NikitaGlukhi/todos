@@ -7,15 +7,15 @@ import { HomePageComponent } from './components/homepage/homepage.component';
 import { AppRoutingModule } from './components/app.routing/routing';
 import { StoreModule } from '@ngrx/store';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-import { TodosServiceComponent } from './components/todos/todos.service';
+import { TodosServiceComponent } from './components/services/todos.service';
 import { TodoComponent } from './components/todo/todo.component';
 import { TodosComponent } from './components/todos/todos.component';
-import { TodosEffects } from './components/todos/todos.effects';
+import { TodosEffects } from './components/effects/todos.effects';
 import { EffectsModule } from '@ngrx/effects';
 import { AddTodoComponent } from './components/add.todo/add-todo.component';
 import { FiltersComponent } from './components/filters/todo.filters';
 import { default as reducer } from './reducers';
-import { TodoActions } from './components/todos/todo.actions';
+import { TodoActions } from './components/actions/todo.actions';
 
 @NgModule({
   declarations: [

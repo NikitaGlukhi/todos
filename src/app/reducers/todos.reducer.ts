@@ -2,7 +2,7 @@ import { Action } from "@ngrx/store";
 import {
   ADD_TODO_ERROR,
   GET_TODOS_ERROR, GET_TODOS_SUCCESS,
-      TodoActions } from '../components/todos/todo.actions';
+      TodoActions } from '../components/actions/todo.actions';
 import { Todo } from "../todo.model";
 
 export type TodoItem = Todo[];

@@ -2,12 +2,12 @@ import { Component } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { TodoState } from '../../reducers/todos.reducer';
 import { Store } from '@ngrx/store';
-import { TodosEffects } from '../todos/todos.effects';
-import { TodoActions } from '../todos/todo.actions';
+import { TodosEffects } from '../effects/todos.effects';
+import { TodoActions } from '../actions/todo.actions';
 import { Action } from '@ngrx/store';
 import { FilterRecord, TodoFilter } from '../filters/filter.model';
 import { AppState, getFilterState, getTodosState } from '../../reducers/index';
-import { TodosServiceComponent } from '../todos/todos.service';
+import { TodosServiceComponent } from '../services/todos.service';
 import { Todo } from '../../todo.model';
 
 @Component ({

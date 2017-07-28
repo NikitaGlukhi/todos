@@ -1,8 +1,8 @@
 import { Injectable } from "@angular/core";
 import { Actions, Effect } from "@ngrx/effects";
 import { Observable } from "rxjs";
-import { TodosServiceComponent } from './todos.service';
-import { ADD_TODO_ERROR,  GET_TODOS_ERROR, GET_TODOS_SUCCESS, TodoActions } from './todo.actions';
+import { TodosServiceComponent } from '../services/todos.service';
+import { ADD_TODO_ERROR,  GET_TODOS_ERROR, GET_TODOS_SUCCESS, TodoActions } from '../actions/todo.actions';
 import { Store } from '@ngrx/store';
 import { getFilterState } from "../../reducers/index";
 import 'rxjs/add/observable/of';

@@ -1,5 +1,5 @@
 import { Action } from '@ngrx/store';
-import { TodoActions } from '../components/todos/todo.actions';
+import { TodoActions } from '../components/actions/todo.actions';
 import { TodoFilter } from '../components/filters/filter.model';
 
 export default function visibilityFilter( state: TodoFilter = "SHOW_ALL", action: Action ):TodoFilter {
