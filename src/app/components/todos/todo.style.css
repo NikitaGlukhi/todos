@@ -1,0 +1,47 @@
+input[type=checkbox]:hover{
+  font-size: 25px;
+}
+
+input:checked ~ label {
+  color: mediumblue;
+  text-decoration:line-through;
+}
+
+/*label*/
+/*{*/
+  /*font: 16px helvetica;*/
+  /*line-height: 18px;*/
+
+  /*position: relative;*/
+
+  /*display: block;*/
+
+  /*margin-bottom: 20px;*/
+
+  /*cursor: pointer;*/
+
+  /*-webkit-tap-highlight-color: rgba(0,0,0,0);*/
+  /*-webkit-user-select: none;*/
+  /*-moz-user-select: none;*/
+  /*-ms-user-select: none;*/
+/*}*/
+
+/* CHECKBOXES */
+
+button {
+  font-family: Arial;
+  background-color: red;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  cursor: hand;
+}
+button:hover {
+  background-color: #ce8483;
+}
+button:disabled {
+  background-color: white;
+  color: white;
+  cursor: auto;
+}

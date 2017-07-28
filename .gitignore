@@ -40,3 +40,14 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+# node_modules
+
+#src
+/src/*.js
+/src/*.js
+
+*.js
+*.txt
+
+
